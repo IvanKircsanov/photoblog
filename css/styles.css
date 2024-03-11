@@ -29,3 +29,13 @@ li{
     font-family: var(--second-family);
     font-weight: 300;
 }
+.gallery-item-title{
+    font-size: 30px;
+    color: var(--section-color-text);
+}
+.gallery-item-description{
+    color: var(--section-color-text);
+}
+.button{
+    color: var(--section-color-text);
+}
