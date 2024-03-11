@@ -4,44 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fotoblog</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!--The header of the site-->
 <header>
-    <nav>
-        <ul>
-            <li><a href="#">LIFESTYLE</a></li>
-            <li><a href="#">PHOTODIARY</a></li>
-            <li><a href="#">MUSIC</a></li>
-            <li><a href="#">TRAVEL</a></li>
+    <nav class="nav">
+        <ul class="menu-list">
+            <li class="list-item">
+                <a href="#" class="list-item-link">LIFESTYLE</a>
+            </li>
+            <li class="list-item">
+                <a href="#" class="list-item-link">PHOTODIARY</a>
+            </li>
+            <li class="list-item">
+                <a href="#" class="list-item-link">MUSIC</a>
+            </li>
+            <li class="list-item">
+                <a href="#" class="list-item-link">TRAVEL</a>
+            </li>
         </ul>
     </nav>
 </header>
 <!--The main content of the site-->
 <main>
-    <section>
-        <ul>
-            <li>
-                <img src="Images/img1.jpg" alt="Girl on a concert">
-                <p style="color:#B4AD9E;">LIFESTYLE</p>
-                <h2 style="color:#626262;">More than just a music festival </h2>
-                <p style="color:#626262;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum quibusdam enim vel accusantium neque ex quo, corrupti nihil sunt consequatur. Rerum nesciunt neque alias quisquam, vitae blanditiis omnis id facilis.</p>
+    <section class="section">
+        <ul class="gallery">
+            <li class="gallery-item">
+                <img src="Images/img1.jpg" alt="Girl on a concert" class="gallery-item-image">
+                <p class="gallery-item-text">LIFESTYLE</p>
+                <h2 class="gallery-item-title">More than just a music festival</h2>
+                <p class="gallery-item-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum quibusdam enim vel accusantium neque ex quo, corrupti nihil sunt consequatur. Rerum nesciunt neque alias quisquam, vitae blanditiis omnis id facilis.</p>
             </li>
-            <li>
-                <img src="Images/img2.png" alt="Cup of coffee in hands">
-                <p style="color:#B4AD9E;">LIFESTYLE</p>
-                <h2 style="color:#626262;">Life tastes better with coffee</h2>
-                <p style="color: #626262;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident omnis labore tempora numquam? Ipsa ipsam laudantium voluptatum, pariatur nemo quidem consectetur repellat culpa. Reprehenderit ex, quos nobis culpa cum hic!</p>
+            <li class="gallery-item">
+                <img src="Images/img2.png" alt="Cup of coffee in hands" class="gallery-item-image">
+                <p class="gallery-item-text">LIFESTYLE</p>
+                <h2 class="gallery-item-title">Life tastes better with coffee</h2>
+                <p class="gallery-item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident omnis labore tempora numquam? Ipsa ipsam laudantium voluptatum, pariatur nemo quidem consectetur repellat culpa. Reprehenderit ex, quos nobis culpa cum hic!</p>
             </li>
-            <li>
-                <img src="Images/img3.png" alt="Two woman poseing infront ">
-                <p style="color:#B4AD9E;">LIFESTYLE</p>
-                <h2 style="color:#626262;">Life tastes better with coffee</h2>
+            <li class="gallery-item">
+                <img src="Images/img3.png" alt="Two woman poseing infront" class="gallery-item-image">
+                <p class="gallery-item-text">PHOTODIARY</p>
+                <h2 class="gallery-item-title">American Dream</h2>
+                <p class="gallery-item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni suscipit, dolores labore fuga in tempore expedita error nulla omnis delectus sequi incidunt eum facere, et atque odio aperiam illum provident?</p>
             </li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li class="gallery-item">
+                <img src="Images/img4.png" alt="Girl on a concert" class="gallery-item-image">
+                <p class="gallery-item-text">PHOTODIARY</p>
+                <h2 class="gallery-item-title">A day exploring the Alps</h2>
+                <p class="gallery-item-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum quibusdam enim vel accusantium neque ex quo, corrupti nihil sunt consequatur. Rerum nesciunt neque alias quisquam, vitae blanditiis omnis id facilis.</p>
+            </li>
+            <li class="gallery-item">
+                <img src="Images/img5.png" alt="Cup of coffee in hands" class="gallery-item-image">
+                <p class="gallery-item-text">LIFESTYLE</p>
+                <h2 class="gallery-item-title">Top 10 song for running</h2>
+                <p class="gallery-item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident omnis labore tempora numquam? Ipsa ipsam laudantium voluptatum, pariatur nemo quidem consectetur repellat culpa. Reprehenderit ex, quos nobis culpa cum hic!</p>
+            </li>
+            <li class="gallery-item">
+                <img src="Images/img6.png" alt="Two woman poseing infront" class="gallery-item-image">
+                <p class="gallery-item-text">LIFESTYLE</p>
+                <h2 class="gallery-item-title">Cold winter days</h2>
+                <p class="gallery-item-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus voluptatum rem soluta officia dicta ullam incidunt similique officiis, consequatur eligendi. Laboriosam deleniti similique tenetur eum, amet fuga modi! Itaque, accusantium?</p>
+            </li>
         </ul>
+        <button type="button" class="button">Load more</button>
     </section>
 </main>
 </body>

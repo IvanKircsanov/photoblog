@@ -1,0 +1,31 @@
+:root{
+    --header-color:#7D7D7D;
+    --gallery-item-text:#B4AD9E;
+    --section-color-text:#626262;
+    --font-family: "Playfair Display", sans-serif;
+    --second-family: "Ubuntu", sans-serif;
+    --primary-font-size: 14px;
+    --primary-font-weight: 400;
+}
+body{
+    font-family: var(--font-family);
+    font-size: var(--primary-font-size);
+    color: var(--gallery-item-text);
+    font-weight: var(--primary-font-weight);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style:   none;
+}
+.list-item-link{
+    color: var(--header-color);
+}
+.list-item-link:hover{
+    color: #03A9F4;
+}
+.gallery-item-text{
+    font-family: var(--second-family);
+    font-weight: 300;
+}
